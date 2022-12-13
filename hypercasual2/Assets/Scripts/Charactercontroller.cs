@@ -7,6 +7,7 @@ public class Charactercontroller : MonoBehaviour
     public float speed;
     public float rightleftspeed;
     public float i = -5;
+    public static int mancounter = 1;
 
     public ParticleSystem system;
     void Start()
@@ -36,21 +37,23 @@ public class Charactercontroller : MonoBehaviour
                 
                     
             }
-            gameObject.transform.localScale += new Vector3(0.05f, 0.05f, 0.05f);
-            Camera.main.transform.position += new Vector3(0, 0.3f, 0);
+            mancounter += 1;
+            gameObject.transform.localScale += new Vector3(0.017f, 0.017f, 0.017f);
+            Camera.main.transform.position += new Vector3(0, 0.1f, 0);
             system.Play();
-            system.transform.localScale += new Vector3(0.05f, 0.05f, 0.05f);
-            i -= 0.3f;
+            system.transform.localScale += new Vector3(0.017f, 0.017f, 0.017f);
+            i -= 0.1f;
             Destroy(other.gameObject);
 
         }
         else if (!other.gameObject.CompareTag("Ground") && !other.gameObject.CompareTag("wall"))
         {
-            gameObject.transform.localScale -= new Vector3(0.05f, 0.05f, 0.05f);
-            Camera.main.transform.position += new Vector3(0, -0.3f, 0);
-
+            mancounter -= 1;
+            gameObject.transform.localScale -= new Vector3(0.017f, 0.017f, 0.017f);
+            Camera.main.transform.position += new Vector3(0, -0.1f, 0);
+            i += 0.1f;
             Destroy(other.gameObject);
-            i += 0.3f;
+           
         }
     }
 
