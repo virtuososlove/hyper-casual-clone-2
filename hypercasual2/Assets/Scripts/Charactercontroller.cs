@@ -44,7 +44,7 @@ public class Charactercontroller : MonoBehaviour
             Destroy(other.gameObject);
 
         }
-        else if (!other.gameObject.CompareTag("Ground"))
+        else if (!other.gameObject.CompareTag("Ground") && !other.gameObject.CompareTag("wall"))
         {
             gameObject.transform.localScale -= new Vector3(0.05f, 0.05f, 0.05f);
             Camera.main.transform.position += new Vector3(0, -0.3f, 0);
