@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class uimanager : MonoBehaviour
 {
-    public Text mantext;
+    public TextMeshProUGUI mantext;
     void Start()
     {
         

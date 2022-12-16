@@ -1075,7 +1075,7 @@ GameObject:
   - component: {fileID: 8060399973614841615}
   m_Layer: 0
   m_Name: Giant
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1131,6 +1131,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 4
   rightleftspeed: 4
+  i: -5
+  canstart: 0
+  system: {fileID: 0}
+  currentcolor: 
 --- !u!54 &8060399973614841614
 Rigidbody:
   m_ObjectHideFlags: 0

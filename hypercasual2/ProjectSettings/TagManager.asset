@@ -9,6 +9,12 @@ TagManager:
   - purplechar
   - FxTemporaire
   - wall
+  - purpleportal
+  - orange
+  - purple
+  - green
+  - orangeportal
+  - greenportal
   layers:
   - Default
   - TransparentFX
