@@ -6,15 +6,25 @@ using TMPro;
 
 public class uimanager : MonoBehaviour
 {
-    public TextMeshProUGUI mantext;
+    public Text mantext;
+    public Text cointext;
     void Start()
     {
         
     }
-
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
+        cointext.text = Charactercontroller.coin.ToString();
+
         mantext.text = Charactercontroller.mancounter.ToString();
+
+    }
+    void mantextupdater()
+    {
+    }
+    void cointextupdater()
+    {
+        
+
     }
 }

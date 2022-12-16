@@ -15,6 +15,7 @@ TagManager:
   - green
   - orangeportal
   - greenportal
+  - coin
   layers:
   - Default
   - TransparentFX
