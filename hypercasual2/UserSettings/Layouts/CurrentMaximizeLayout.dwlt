@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 289967
+  controlID: 292874
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -97,7 +97,7 @@ MonoBehaviour:
       y: 21
       width: 1231.8
       height: 232.79999
-    m_Scale: {x: 0.18187499, y: 0.18187499}
+    m_Scale: {x: 0.19828124, y: 0.19828124}
     m_Translation: {x: 615.9, y: 116.399994}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -105,12 +105,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -3386.392
-      y: -640
-      width: 6772.784
-      height: 1280
+      x: -3106.194
+      y: -587.0449
+      width: 6212.388
+      height: 1174.0898
     m_MinimalGUI: 1
-  m_defaultScale: 0.18187499
+  m_defaultScale: 0.19828124
   m_LastWindowPixelSize: {x: 1539.75, y: 317.25}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 289968
+  controlID: 292875
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 289932
+  controlID: 292864
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5068f8ff
+      m_SelectedIDs: 0670f8ff
       m_LastClickedID: 0
       m_ExpandedIDs: e650f9ff96d8f9ffb819faff82defaff600dfbff940ffbffd476fbff3678fbff4479fbff9e79fbffba82fbff0284fbff2c86fbff3086fbff4a63ffff7e63ffff6871ffffd888ffff4eb5ffff2ac3ffff82c4ffff1afbffff3a680000a4e41f00d8e41f00
       m_RenameOverlay:
@@ -260,7 +260,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: AnimatorControllerTool
+  m_Name: SceneView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -269,14 +269,14 @@ MonoBehaviour:
     y: 0
     width: 945.60004
     height: 456
-  m_MinSize: {x: 102, y: 121}
+  m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 9}
+  m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
   - {fileID: 9}
-  m_Selected: 1
-  m_LastSelected: 0
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52

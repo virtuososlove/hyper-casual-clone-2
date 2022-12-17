@@ -82,10 +82,11 @@ public class Charactercontroller : MonoBehaviour
             if (!chanm.GetCurrentAnimatorStateInfo(1).IsName("parlama"))
             {
                 chanm.SetTrigger("deymetrigger");
-                textanim.SetTrigger("active");
+  
 
 
             }
+            textanim.SetTrigger("active");
             mancounter += 1;
             if(mancounter == 5)
             {
